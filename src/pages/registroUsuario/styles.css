@@ -1,0 +1,144 @@
+:root{
+  /* e357a2 */
+  --color-background-1:#e357a2;
+  --color-background-2:#FFC9D9;
+  --color-background-3:#D9E5F2;
+  --color-background-light:#F6FAFF;
+  
+  --color-font-1:#181818;
+  --color-font-2:#e9e9e9;
+  --color-font-dark: #3a3a3a;
+  --color-font-light: #ffff;
+
+  --m-xl: 2rem;
+
+
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./endless-constellation.svg);
+  
+  
+
+  
+}
+
+
+
+
+.formulario{
+  width: 30rem;
+  padding: 1.8rem;
+  margin-left: 4rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+background-color: #fff;
+
+  border-radius: 10px;
+  border-color: var(--color-background-1);
+}
+.legend-form{
+  font-size: var(--m-xl);
+  color:  var(--color-background-1);
+}
+
+.formulario__input{
+  height: 4rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.formulario__input input::-webkit-input-placeholder{
+  
+  font-size: 1rem;
+}
+.input-txt{
+  height: 4rem;
+  padding: 0.4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid var(--color-background-1);
+  border-radius: 5px;
+}
+.input-txt input{
+  border: none;
+  outline: none;
+}
+
+.form__dates{
+  padding: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+
+  border-radius: 10px;
+}
+.form__dates{
+  border-color: var(--color-background-1);
+
+}
+.legend-date{
+  font-size: 1.8rem;
+  
+}
+
+.formulario i{
+  color: var(--color-background-1);
+}
+
+.form__i-date{
+  border: none;
+  outline: none;
+  
+}
+
+.form__select{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  outline: none;
+  border-color: var(--color-background-1) ;
+  font-size: 1.2rem;
+  border: none;
+
+}
+.form-select--borde{
+  height: 40px;
+  padding: 0.4rem;
+  border: 1px solid var(--color-background-1);
+  border-radius: 5px;
+}
+
+.form__btn{
+  margin-top: 8px;
+  padding: 8px;
+  background-color: var(--color-background-1);
+  color: var(--color-font-2);
+  border-color: var(--color-background-1);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 250ms;
+
+}
+.form__btn:hover{
+  background-color: var(--color-background-2);
+  color: var(--color-font-1);
+
+}
+
+
+
+
+.form__radio-btn{
+  display: flex;
+  gap: .4rem;
+}
+

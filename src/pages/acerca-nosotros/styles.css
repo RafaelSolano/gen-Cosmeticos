@@ -1,0 +1,29 @@
+/* -------------------------------------------------------------------------- */
+/*                                   nosotro                                  */
+/* -------------------------------------------------------------------------- */
+
+.hero img{
+  width: 100%;
+}
+
+.h1__articles{
+  text-align: center;
+  margin: 24px;
+  font-weight: bold;
+}
+
+.container__articles{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+
+
+}
+
+.container__articulo{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 12px;
+}

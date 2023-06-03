@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------------------------- cdn fontAwesome --------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- --------------------------------- cdn Bootstrap --------------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--css ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- ----------------------------------------------------------------------- -->
+
+    <title>Registro Consultora de Belleza</title>
+</head>
+
+<body class="container">
+
+    <section class="container__form">
+        <form action="">
+            <fieldset class="formulario">
+                <legend class="legend-form">Registro Nuevo</legend>
+
+                <!-- ------------------------------- nombre -------------------------------- -->
+                <div class="formulario__input input-txt">
+                    <label for="nombre">
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                        Nombre*:</label>
+                    <input type="text" id="nombre" placeholder="Nombre Apellido" name="i_nombre"
+                        pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"
+                        required>
+                </div>
+                <div class="formulario__input input-txt">
+                    <label for="nombre">
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                        Nombre de usurio*:</label>
+                    <input type="text" id="nombre" placeholder="Nombre de usuario" name="i_nombre"
+                        pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"
+                        required>
+                </div>
+                <!-- -------------------------------- email -------------------------------- -->
+
+                <div class="formulario__input input-txt">
+                    <label for="email">
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        Email addres*:</label>
+                    <input type="email" id="email" placeholder="email_addres@gmail.com" name="i_email"
+                        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                </div>
+
+
+
+
+
+
+
+                <!-- ------------------------------ password ------------------------------- -->
+                <div class="formulario__input input-txt">
+                    <label for="password">
+                        <i class="fa-sharp fa-solid fa-lock"></i>
+                        Password:</label>
+                    <input type="password" id="password " name="i_email" pattern="[A-Za-z0-9!?-]{8,12}" required
+                        minlength="8">
+                </div>
+
+                <div class="formulario__input input-txt">
+                    <label for="password">
+                        <i class="fa-sharp fa-solid fa-lock"></i>
+                        Confirmar Password:</label>
+                    <input type="password" id="password_confirm " name="i_email" pattern="[A-Za-z0-9!?-]{8,12}" required
+                        minlength="8">
+                </div>
+
+                <!-- ---------------------------- radio button ----------------------------- -->
+                <div class="">
+                    <p>Terminos y condiciones <a href="">leer</a></p>
+                    <div class="form__radio-btn">
+                        <input type="radio" name="terms" id="termsSi">
+                        <label for="termsSi">Acepto</label>
+
+                        <input type="radio" name="terms" id="termsno">
+                        <label for="termsno">No acepto</label>
+
+                    </div>
+                    <!-- ------------------------------- botones ------------------------------- -->
+
+                    <div>
+                        <button class="form__btn" type="submit">Registrarse</button>
+                    </div>
+            </fieldset>
+        </form>
+
+
+
+    </section>
+
+
+
+    <!-- ---------------------------- js bootstrap ----------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- ----------------------------------------------------------------------- -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
