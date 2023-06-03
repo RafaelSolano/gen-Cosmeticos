@@ -30,6 +30,6 @@ registro.addEventListener('submit', (e) =>{
   localStorage.setItem('users', JSON.stringify(listUsers))
   alert('Registro exitoso');
 
-  window.location.href="/src/pages/inicioSesion/inicioSesion.html"
+  window.location.href="../inicioSesion/inicioSesion.html"
 
 })

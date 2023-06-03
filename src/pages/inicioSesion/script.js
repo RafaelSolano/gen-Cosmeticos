@@ -15,8 +15,8 @@ formInicio.addEventListener('submit', (e) =>{
   if(!validerUser){
     alert(`Usuario / password incorrecto intente de nuevo`)
   }
+  localStorage.setItem(`Login__Success`, JSON.stringify(validerUser))
   alert(`Bienvenido ${validerUser.userName}`)
-    localStorage.setItem(`Login__Success`, JSON.stringify(validerUser))
-    window.location.href ='/index.html'
+  window.location.href ='../../../index.html'
 
 })
