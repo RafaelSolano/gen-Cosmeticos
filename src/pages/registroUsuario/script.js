@@ -32,4 +32,6 @@ registro.addEventListener('submit', (e) =>{
 
   window.location.href="../inicioSesion/inicioSesion.html"
 
+  
+
 })

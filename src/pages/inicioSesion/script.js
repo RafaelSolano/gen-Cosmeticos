@@ -17,6 +17,7 @@ formInicio.addEventListener('submit', (e) =>{
   }
   localStorage.setItem(`Login__Success`, JSON.stringify(validerUser))
   alert(`Bienvenido ${validerUser.userName}`)
-  window.location.href ='../../../index.html'
+  window.location.href = "../../../index.html"
+
 
 })
