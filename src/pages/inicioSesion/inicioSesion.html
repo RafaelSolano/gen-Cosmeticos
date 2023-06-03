@@ -22,7 +22,7 @@
 <body class="container">
 
     <section class="container__form">
-        <form action="">
+        <form  class="formInicio">
             <fieldset class="formulario">
                 <legend class="legend-form">Inicio sesion</legend>
 
@@ -33,13 +33,9 @@
                     <label for="email">
                         <i class="fa-sharp fa-solid fa-envelope"></i>
                         Email addres*:</label>
-                    <input type="email" id="email" placeholder="email_addres@gmail.com" name="i_email"
-                        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                    <input type="email" id="email" placeholder="email_addres@gmail.com" 
+                         required>
                 </div>
-
-
-
-
 
 
 
@@ -48,15 +44,15 @@
                     <label for="password">
                         <i class="fa-sharp fa-solid fa-lock"></i>
                         Password:</label>
-                    <input type="password" id="password " name="i_email" pattern="[A-Za-z0-9!?-]{8,12}" required
-                        minlength="8">
+                    <input type="password" id="password " class=" userPassword"   required
+                        minlength="4">
                 </div>
 
                
 
                 <!-- ---------------------------- radio button ----------------------------- -->
                 <div class="">
-                    <p>olvide password <a href="">recuperar</a></p>
+                    <p>No tengo cuenta <a href="../registroUsuario/registro.html">Registrarme</a></p>
                    
                     <!-- ------------------------------- botones ------------------------------- -->
 
